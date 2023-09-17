@@ -44,8 +44,8 @@ devDependencies:
     specifier: 1.1.0
     version: 1.1.0(eslint@8.49.0)(typescript@5.2.2)
   '@putstack/prettier-config':
-    specifier: 1.1.0
-    version: 1.1.0(prettier@3.0.3)
+    specifier: 1.2.2
+    version: 1.2.2(prettier@3.0.3)
   '@types/eslint':
     specifier: 8.44.2
     version: 8.44.2
@@ -346,8 +346,8 @@ packages:
       - supports-color
     dev: true
 
-  /@putstack/prettier-config@1.1.0(prettier@3.0.3):
-    resolution: {integrity: sha512-5AYLAdjqEDpj1y4PSsxwsEYdocHiVS30hQuffMt/E4bfmTLtpCfHEzFh+7JFDwUV5y1LSx9iwTE4ZV4eW2kJ6A==}
+  /@putstack/prettier-config@1.2.2(prettier@3.0.3):
+    resolution: {integrity: sha512-svzRIt5ZeGJExPFw01C2Qr+fz0c38VoKnf21IHnUt0mZ3GJ9rY9tiK2jkT8Vzpe21CIJb40/yz+QNpNUTWujig==}
     peerDependencies:
       prettier: '>=3.0.3'
     dependencies:
