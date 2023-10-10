@@ -16,12 +16,12 @@
     "zod": "3.22.4"
   },
   "devDependencies": {
-    "@putstack/eslint-config-typescript": "1.1.1",
+    "@putstack/eslint-config-typescript": "1.1.2",
     "@putstack/prettier-config": "1.2.2",
     "@types/eslint": "8.44.3",
-    "@types/node": "20.8.3",
-    "@types/react": "18.2.25",
-    "@types/react-dom": "18.2.11",
+    "@types/node": "20.8.4",
+    "@types/react": "18.2.27",
+    "@types/react-dom": "18.2.12",
     "autoprefixer": "10.4.16",
     "eslint": "8.51.0",
     "eslint-config-next": "13.5.4",
