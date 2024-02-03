@@ -50,11 +50,11 @@ devDependencies:
     specifier: 8.56.2
     version: 8.56.2
   '@types/node':
-    specifier: 20.11.9
-    version: 20.11.9
+    specifier: 20.11.16
+    version: 20.11.16
   '@types/react':
-    specifier: 18.2.48
-    version: 18.2.48
+    specifier: 18.2.52
+    version: 18.2.52
   '@types/react-dom':
     specifier: 18.2.18
     version: 18.2.18
@@ -68,11 +68,11 @@ devDependencies:
     specifier: 14.1.0
     version: 14.1.0(eslint@8.56.0)(typescript@5.3.3)
   husky:
-    specifier: 9.0.6
-    version: 9.0.6
+    specifier: 9.0.10
+    version: 9.0.10
   lint-staged:
-    specifier: 15.2.0
-    version: 15.2.0
+    specifier: 15.2.1
+    version: 15.2.1
   postcss:
     specifier: 8.4.33
     version: 8.4.33
@@ -552,9 +552,9 @@ packages:
       { integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ== }
     dev: true
 
-  /@types/node@20.11.9:
+  /@types/node@20.11.16:
     resolution:
-      { integrity: sha512-CQXNuMoS/VcoAMISe5pm4JnEd1Br5jildbQEToEMQvutmv+EaQr90ry9raiudgpyDuqFiV9e4rnjSfLNq12M5w== }
+      { integrity: sha512-gKb0enTmRCzXSSUJDq6/sPcqrfCv2mkkG6Jt/clpn5eiCbKTY+SgZUxo+p8ZKMof5dCp9vHQUAB7wOUTod22wQ== }
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -573,12 +573,12 @@ packages:
     resolution:
       { integrity: sha512-TJxDm6OfAX2KJWJdMEVTwWke5Sc/E/RlnPGvGfS0W7+6ocy2xhDVQVh/KvC2Uf7kACs+gDytdusDSdWfWkaNzw== }
     dependencies:
-      '@types/react': 18.2.48
+      '@types/react': 18.2.52
     dev: true
 
-  /@types/react@18.2.48:
+  /@types/react@18.2.52:
     resolution:
-      { integrity: sha512-qboRCl6Ie70DQQG9hhNREz81jqC1cs9EVNcjQ1AU+jH6NFfSAhVVbrrY/+nSF+Bsk4AOwm9Qa61InvMCyV+H3w== }
+      { integrity: sha512-E/YjWh3tH+qsLKaUzgpZb5AY0ChVa+ZJzF7ogehVILrFpdQk6nC/WXOv0bfFEABbXbgNxLBGU7IIZByPKb6eBw== }
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.3
@@ -2175,9 +2175,9 @@ packages:
     engines: { node: '>=16.17.0' }
     dev: true
 
-  /husky@9.0.6:
+  /husky@9.0.10:
     resolution:
-      { integrity: sha512-EEuw/rfTiMjOfuL7pGO/i9otg1u36TXxqjIA6D9qxVjd/UXoDOsLor/BSFf5hTK50shwzCU3aVVwdXDp/lp7RA== }
+      { integrity: sha512-TQGNknoiy6bURzIO77pPRu+XHi6zI7T93rX+QnJsoYFf3xdjKOur+IlfqzJGMHIK/wXrLg+GsvMs8Op7vI2jVA== }
     engines: { node: '>=18' }
     hasBin: true
     dev: true
@@ -2617,9 +2617,9 @@ packages:
       { integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg== }
     dev: true
 
-  /lint-staged@15.2.0:
+  /lint-staged@15.2.1:
     resolution:
-      { integrity: sha512-TFZzUEV00f+2YLaVPWBWGAMq7So6yQx+GG8YRMDeOEIf95Zn5RyiLMsEiX4KTNl9vq/w+NqRJkLA1kPIo15ufQ== }
+      { integrity: sha512-dhwAPnM85VdshybV9FWI/9ghTvMLoQLEXgVMx+ua2DN7mdfzd/tRfoU2yhMcBac0RHkofoxdnnJUokr8s4zKmQ== }
     engines: { node: '>=18.12.0' }
     hasBin: true
     dependencies:
@@ -2628,7 +2628,7 @@ packages:
       debug: 4.3.4
       execa: 8.0.1
       lilconfig: 3.0.0
-      listr2: 8.0.0
+      listr2: 8.0.1
       micromatch: 4.0.5
       pidtree: 0.6.0
       string-argv: 0.3.2
@@ -2637,9 +2637,9 @@ packages:
       - supports-color
     dev: true
 
-  /listr2@8.0.0:
+  /listr2@8.0.1:
     resolution:
-      { integrity: sha512-u8cusxAcyqAiQ2RhYvV7kRKNLgUvtObIbhOX2NCXqvp1UU32xIg5CT22ykS2TPKJXZWJwtK3IKLiqAGlGNE+Zg== }
+      { integrity: sha512-ovJXBXkKGfq+CwmKTjluEqFi3p4h8xvkxGQQAQan22YCgef4KZ1mKGjzfGh6PL6AW5Csw0QiQPNuQyH+6Xk3hA== }
     engines: { node: '>=18.0.0' }
     dependencies:
       cli-truncate: 4.0.0
